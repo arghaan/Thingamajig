@@ -1,4 +1,4 @@
-package com.example.examplemod;
+package com.syrius.thingamajig;
 
 import org.slf4j.Logger;
 
