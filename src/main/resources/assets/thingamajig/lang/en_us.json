@@ -1,0 +1,7 @@
+{
+  "item.thingamajig.thingamajig": "Thingamajig",
+  "item.thingamajig.thingamajig.desc": "It does something. Perhaps useful. \nAnd maybe it won't kill you.",
+  "item.thingamajig.thingamajig.config.delay": "Delay between repair ticks, higher is slower repair",
+  "item.thingamajig.thingamajig.config.mode": "Repair modes: 0 = All Slots, 1 = Hotbar Only, 2 = Main Inventory Only, 3 = Armor & Shield Only",
+  "itemGroup.thingamajig": "Thingamajig"
+}

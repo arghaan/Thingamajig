@@ -1,0 +1,40 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "BBB",
+        "ACD",
+        "EEE"
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+            "item": "minecraft:anvil"
+        },
+        "B":
+        {
+            "item": "minecraft:emerald"
+        },
+        "C":
+        {
+            "item": "minecraft:diamond"
+        },
+        "D":
+        {
+            "item": "minecraft:iron_block"
+        },
+        "E":
+        {
+            "item": "minecraft:gold_ingot"
+        }       
+    },
+    
+    "result":
+    {
+        "id": "thingamajig:thingamajig",
+        "count": 1
+    }
+}

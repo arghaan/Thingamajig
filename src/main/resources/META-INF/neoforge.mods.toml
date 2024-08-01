@@ -4,14 +4,14 @@
 # Note that there are a couple of TOML lists in this file.
 # Find more information on toml format here:  https://github.com/toml-lang/toml
 # The name of the mod loader type to load - for regular FML @Mod mods it should be javafml
-modLoader="javafml" #mandatory
+modLoader = "javafml" #mandatory
 
 # A version range to match for said mod loader - for regular FML @Mod it will be the FML version. This is currently 2.
-loaderVersion="[4,)" #mandatory
+loaderVersion = "[4,)" #mandatory
 
 # The license for you mod. This is mandatory metadata and allows for easier comprehension of your redistributive properties.
 # Review your options at https://choosealicense.com/. All rights reserved is the default copyright stance, and is thus the default here.
-license="MIT"
+license = "MIT"
 
 # A URL to refer people to when problems occur with this mod
 #issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/" #optional
@@ -20,13 +20,13 @@ license="MIT"
 [[mods]] #mandatory
 
 # The modid of the mod
-modId="thingamajig" #mandatory
+modId = "thingamajig" #mandatory
 
 # The version number of the mod
-version="0.0.1" #mandatory
+version = "0.0.1" #mandatory
 
 # A display name for the mod
-displayName="Thingamajig" #mandatory
+displayName = "Thingamajig" #mandatory
 
 # A URL to query for updates for this mod. See the JSON update specification https://docs.neoforged.net/docs/misc/updatechecker/
 #updateJSONURL="https://change.me.example.invalid/updates.json" #optional
@@ -41,10 +41,10 @@ displayName="Thingamajig" #mandatory
 #credits="" #optional
 
 # A text field displayed in the mod UI
-authors="Syrius Arghaan" #optional
+authors = "Syrius Arghaan" #optional
 
 # The description text for the mod (multi line!) (#mandatory)
-description='''Under construction'''
+description = '''Under construction'''
 
 # The [[mixins]] block allows you to declare your mixin config to FML so that it gets loaded.
 #[[mixins]]
@@ -59,14 +59,14 @@ description='''Under construction'''
 
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.thingamajig]] #optional
-    modId="neoforge" #mandatory
-    type="required" #mandatory
-    versionRange="[21.0.0-beta,)" #mandatory
-    ordering="NONE"
-    side="BOTH"
+modId = "neoforge" #mandatory
+type = "required" #mandatory
+versionRange = "[21.0.0-beta,)" #mandatory
+ordering = "NONE"
+side = "BOTH"
 
 [[dependencies.thingamajig]]
-    modId="minecraft"
-    type="required"
-    versionRange="[1.21,1.21.1)"
-    ordering="NONE"
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21,1.21.1)"
+ordering = "NONE"
